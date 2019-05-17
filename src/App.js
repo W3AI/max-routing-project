@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <ol style={{textAlign: 'left'}}>
           <li>&#10004; Add Routes to load "Users" and "Courses" on different pages (by entering a URL, without Links)</li>
-          <li>Add a simple navigation with two links => One leading to "Users", one leading to "Courses"</li>
+          <li>&#10004; Add a simple navigation with two links => One leading to "Users", one leading to "Courses"</li>
           <li>Make the courses in "Courses" clickable by adding a link and load the "Course" component in the place of "Courses" (without passing any data for now)</li>
           <li>Pass the course ID to the "Course" page and output it there</li>
           <li>Pass the course title to the "Course" page - pass it as a param or score bonus points by passing it as query params (you need to manually parse them though!)</li>

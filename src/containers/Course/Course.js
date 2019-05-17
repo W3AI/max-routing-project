@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 
 class Course extends Component {
+    state = {
+        courseTitle:  ''
+    }
+
+    componentDidMount () {
+        console.log(this.props);
+        const query = new URLSearchParams(this.props.location.search);
+        console.log(query);
+    }
+
     render () {
         return (
             <div>
